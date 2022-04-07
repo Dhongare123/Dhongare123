@@ -7,27 +7,21 @@
 <!---
 Dhongare123/Dhongare123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
---->
-<!DOCTYPE html>
 
-<html>
+pip3 install shodan
+import shodan<br>
+import time<br>
+import requests<br>
+import re<br>
+<br>
+# your shodan API key<br>
+SHODAN_API_KEY = &apos;&lt;YOUR_SHODAN_API_KEY_HERE&gt;&apos;<br>
+api = shodan.Shodan(SHODAN_API_KEY)
 
-<head><title> Table </title></head>
 
-<body>
 
-<table border="3">
 
-<tr><td colspan="2" align="center"> Colors </td></tr>
 
-<tr><td bgcolor=red>Red</td>
 
-<td bgcolor=green>Green</td>
 
-<tr>
 
-</table>
-
-</body>
-
-</html>
